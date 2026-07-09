@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #222;
+}
+
+.section-title .line {
+    width: 45px;
+    height: 2px;
+    background-color: #ff8c42;
+    margin: 12px auto;
+}
+
+.section-title p {
+    color: #999;
+    font-size: 14px;
+}
+
+.pricing-section {
+    padding: 80px 20px;
+}
+
+.pricing-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.price-card {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    background: #ffffff;
+    vertical-align: top;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+
+.card-header {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 35px 20px;
+    position: relative;
+    border-bottom: 4px solid #ff8c42;
+}
+
+.card-header h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.price span {
+    font-size: 22px;
+    vertical-align: super;
+}
+
+.period {
+    font-size: 12px;
+    color: #b0b0b0;
+    margin-top: 5px;
+}
+
+.price-card.featured {
+    width: 32%;
+    vertical-align: middle;
+}
+
+.price-card.featured .badge {
+    background-color: #ff8c42;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 8px 0;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.features {
+    list-style: none;
+}
+
+.features li {
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 13px;
+    color: #666;
+}
+
+.features li:last-child {
+    border-bottom: none;
+}
+
+.tabs-section {
+    padding: 80px 20px;
+    background-color: #f2f2f2;
+}
+
+.tabs-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.tabs-menu, .tab-content, .tab-image {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.tabs-menu {
+    width: 15%;
+}
+
+.tab-btn {
+    display: block;
+    width: 100%;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 25px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 1px solid #444444;
+    font-size: 14px;
+}
+
+.tab-btn.active {
+    background-color: #ff8c42;
+}
+
+.tab-content {
+    width: 50%;
+    padding: 0 40px;
+    text-align: left;
+}
+
+.tab-content h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.tab-content p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.btn-download {
+    display: inline-block;
+    background-color: #ff8c42;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.tab-image {
+    width: 35%;
+    text-align: right;
+    font-size: 0;
+}
+
+.tab-image img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+}
+
+.reflected-city {
+    transform: scaleY(-1);
+    opacity: 0.12;
+    margin-top: -1px;
+}
+
+.contact-section {
+    padding: 80px 20px;
+    background-color: #ffffff;
+}
+
+.contact-form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.form-body {
+    font-size: 0;
+}
+
+.form-col {
+    display: inline-block;
+    width: 48%;
+    margin-right: 4%;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.form-col:last-child {
+    margin-right: 0;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    padding: 14px 5px;
+    margin-bottom: 25px;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-bottom: 1px solid #ff8c42;
+}
+
+.contact-form textarea {
+    height: 148px;
+    resize: none;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-send {
+    background-color: #ff8c42;
+    color: #ffffff;
+    border: none;
+    padding: 14px 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
