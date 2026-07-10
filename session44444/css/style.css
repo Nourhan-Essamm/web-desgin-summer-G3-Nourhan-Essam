@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.padding-top-bottom{
+    padding: 5% 0;
+}
+.container{
+    margin:auto;
+    width: 85%;
+    color: white;
+}
+.bg-color{
+    background-color: black;
+}
+
+
+.logo {font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+font-weight: bold;}
+
+.white-part{
+    color: white;
+}
+
+.red-part{
+    color: red;
+}
+
+
+
+.text-color{
+    color: white;
+}
+.head-ul{
+  width: 50%;
+  text-align: right;
+}
+.head-ul li{
+   display: inline-block;
+   margin-left:2% ;
+   margin-right: 2%;
+}
+.img-link{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+    
+
+float:right;
+}
+a{
+text-decoration: none;
+color: inherit;
+}
+li{
+    display: inline-block;
+}
+.clear{
+    clear:both;
+}
+.bg-img{
+height: 100%;
+background-image: url(../images/bg.jpg);
+background-repeat: none;
+background-size: 100% 100%;
+        
+}
+.overlay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.402);
+}
+.h2-span{
+    color: red; 
+}
+.AX-span{
+font-weight:45px;
+}
+.h3-class{
+    text-transform: capitalize;
+}
+hr{
+    width: 30px;
+    border:1px solid white;
+    margin: 3% 0;
+}
+button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 1% 3%;
+    margin-top: 4%;
+}
+.download-btn{
+    margin: 6%;
+}
+.form-class{
+background-color: white;
+border-radius: 5px;
+margin: 6% 0;
+text-align: center;
+}
+.h2-form {
+color: black;
+background-color: white;
+margin-bottom: 5%;
+padding: 2%;
+}
+.input-element{
+width: 80%;
+ border-style: none;
+ border-bottom: 1px solid lightgray;
+ outline: none;
+ padding: 2%;
+ margin: 2%;
+}
+.free-class{
+    display:inline-block;
+    color:red;
+}
+.form-btn{
+    color: white;
+    background-color: red;
+    width: 100%;
+    border: none;
+    padding: 4%;
+    margin-top: 5%;
+}
+.float-right{
+    float:right;
+    width: 40%;
+}
+.float-left{
+    float:left;
+    width: 40%;
+}
+.clear{
+    clear:both;
+} 
